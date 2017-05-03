@@ -1,0 +1,33 @@
+{
+  "name": "nib",
+  "version": "0.0.0",
+  "description": "Nib is a story telling platform where users work together to write stories. http://nib.jkahn.me/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JohnKahn/nib.git"
+  },
+  "private": true,
+  "main": "index.js",
+  "author": "John Kahn",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "build": "next build"
+  },
+  "now": {
+    "env": {
+      "NODE_ENV": "production"
+    }
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "express": "^4.15.2",
+    "isomorphic-fetch": "^2.2.1",
+    "moment": "^2.18.1",
+    "next": "^2.2.0",
+    "nprogress": "^0.2.0",
+    "react": "^15.5.4",
+    "react-apollo": "^1.1.3",
+    "react-dom": "^15.5.4"
+  }
+}
